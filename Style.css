@@ -1,0 +1,61 @@
+body
+{ 
+    background: url(BG.jpg);   
+    background-size: contain;
+    font-family: 'Indie Flower', cursive;
+    color: rgb(48, 46, 46);
+}
+
+center 
+{
+    height: 620px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgba(208, 207, 203, 0.753);
+}
+
+#headerIMG
+{
+    width: 80px;
+}
+
+.designHeader
+{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    background-color: rgb(254, 198, 195);
+    width: 400px;
+    height: 75px;
+    border-radius: 10px;
+    border-color: rgb(159, 127, 127);
+    border-width: 2px;
+    border-style: solid;
+    font-family: 'Indie Flower', cursive;
+    font-size: 500px !important;
+}
+
+#ClickButton
+{
+    background-color: rgb(254, 198, 195);
+    height: 40px;
+    width: 100px;
+    font-size: medium;
+    margin-right: 30px;
+}
+
+canvas
+{
+    animation-name: pinkaulous;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pinkaulous
+{
+    0% { box-shadow: 1px 1px 50px #FEC6C3; }
+    50% { box-shadow: 1px 1px 50px #FED9D7; }
+    100% { box-shadow: 1px 1px 50px #FEECEB; }
+}
+
+/* Colour scheme =  "Baby pink FEC6C3-254, 198, 195" "Burnished Brown 9F7F7F-159, 127, 127" "Timberwolf D0CFCB-208, 207, 203" "Jet 302E2E-48, 46, 46" */
